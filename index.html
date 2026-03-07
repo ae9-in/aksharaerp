@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akshara Landing</title>
+  <title>Akshara ERP</title>
+  <link rel="icon" type="image/png" href="AksharaLogo.png?v=1">
+  <link rel="shortcut icon" href="AksharaLogo.png?v=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Manrope:wght@500;700&display=swap" rel="stylesheet">
@@ -117,6 +119,9 @@
       padding: 10px 20px;
       border: 1px solid rgba(19, 34, 43, 0.2);
       border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
       font-size: clamp(1rem, 2.8vw, 1.6rem);
       font-weight: 800;
       letter-spacing: 0.06em;
@@ -196,17 +201,6 @@
 
     .btn-b {
       background: linear-gradient(120deg, #22d3ee, #14b8a6);
-    }
-
-    .corner-label {
-      position: absolute;
-      right: 16px;
-      bottom: 14px;
-      font-size: 0.74rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: rgba(19, 34, 43, 0.54);
-      animation: fadeUp 720ms 740ms both;
     }
 
     @media (max-width: 640px) {
@@ -292,7 +286,6 @@
         <button id="btn2" class="btn btn-b" type="button">Attendance</button>
       </div>
     </section>
-    <span class="corner-label">Animated Landing</span>
   </main>
 
   <script>
